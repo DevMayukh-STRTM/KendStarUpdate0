@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+.cgrids {
+  width: 100%;
+  box-sizing: border-box;
+  display: inline;
+  padding: 0.5em;
+}
+
+.items-cgrids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.pg-items {
+  width: 20rem;
+  height: 20rem;
+}
