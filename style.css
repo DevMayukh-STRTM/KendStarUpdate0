@@ -9,8 +9,23 @@
 
 .items-cgrids {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
 }
+
+@media (min-width: 720px) {
+  .items-cgrids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width:1024px) {
+  .items-cgrids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 
 .pg-items {
   width: 20rem;
